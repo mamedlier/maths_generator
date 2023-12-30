@@ -19,7 +19,7 @@ span {font-weight: bold; font-size: 24px;}
 </head>
 <body>
 <p>&nbsp;</p>
-<form method="POST" action="4_2_1.py">
+<form method="POST" action="maths_generator.py">
 <p><input type="submit" value="Генерация примера"></p>
 </form>
 <p>Пример: <span>''', random.randint(1, 100), random.choice(['+', '-', '/', '**', '%', '//']), random.randint(1, 100), '''</span></p>
