@@ -1,12 +1,10 @@
 #! C:/Python/python
 
-# Добавляем необходимый модуль.
 import cgi
 import random
 
 form = cgi.FieldStorage()
 
-# Печатаем  страницу.
 print('Content-type: text/html\n\n')
 print('''<!DOCTYPE html>
 <html lang="ru">
